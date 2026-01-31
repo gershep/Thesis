@@ -16,7 +16,7 @@ First we redefine the partitioning problem as an optimization problem that we th
 
 In the next step we try to find a solution to the original discrete problem that is closest to the obtained set of continuous optima. We can achieve this in an iterative fashion by alternately applying two procedures:
 
-1. Using non-maximum suppression we find the discrete solution closest to a continuous one.
+1. Using non-maximum suppression, we find the discrete solution closest to a continuous one.
 2. By solving the orthogonal Procrustes problem, we obtain the continuous optimum that is a good approximation of a discrete one.
 
 ## Requirements
@@ -25,7 +25,7 @@ To use this project, you need MATLAB or GNU Octave.
 
 ## Usage
 
-Function `ncut` takes two inputs: the similarity matrix `W`, and the number of partitions `k`. It outputs the eingenvalues `s` and the partition matrix`X*`.
+The function `ncut` takes two inputs: the similarity matrix `W`, and the number of partitions `k`. It outputs the eigenvalues `s` and the partition matrix`X*`.
 
 ## Examples
 
