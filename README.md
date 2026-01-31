@@ -44,5 +44,22 @@ This presents a fundamental limitation of spectral clustering.
 
 <img width="1093" height="248" alt="rec" src="https://github.com/user-attachments/assets/395eeea0-60ef-4a3e-991c-44e1ef2461f9" />
 
+### Images
 
+For an image, the similarity matrix can be defined using the formula
+
+$$
+w_{ij}
+\coloneqq
+\begin{cases}
+\ e^{-\frac{d_1(P_i,P_j)}{\sigma_1^2}-\frac{d_2(P_i,P_j)}{\sigma_2^2}}, & d_2(P_i,P_j) < r^2, \\ 
+\ 0, & \text{otherwise},
+\end{cases}
+$$
+
+where $d_1$ measures the similary of pixels by color, $d_2$ is the distance between pixels in space, and $\sigma_1$, $\sigma_2$, and $r$ are parameters that can be tuned.
+
+We segmented images of dimensions 100 × 200 pixels. The number of partitions k was picked by hand. These are the results for $\sigma_1 = 0.1$, $\sigma_2 = 3.4$, and $r = 10$:
+
+<img width="571" height="312" alt="img" src="https://github.com/user-attachments/assets/997d7f59-f336-4967-bead-70d3129516e3" />
 
