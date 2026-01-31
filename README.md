@@ -58,7 +58,7 @@ w_{ij}
 \end{cases}
 $$
 
-where $d_1$ measures the similary of pixels by color, $d_2$ is the distance between pixels in space, and $\sigma_1$, $\sigma_2$, and $r$ are parameters that can be tuned.
+where $d_1$ measures the similarity of pixels by color, $d_2$ is the distance between pixels in space, and $\sigma_1$, $\sigma_2$, and $r$ are parameters that can be tuned.
 
 We segmented images of dimensions 100 × 200 pixels. The number of partitions k was picked by hand. These are the results for $\sigma_1 = 0.1$, $\sigma_2 = 3.4$, and $r = 10$:
 
