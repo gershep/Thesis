@@ -63,3 +63,6 @@ We segmented images of dimensions 100 × 200 pixels. The number of partitions k 
 
 <img width="571" height="312" alt="img" src="https://github.com/user-attachments/assets/997d7f59-f336-4967-bead-70d3129516e3" />
 
+## License
+
+This project is licensed under the [MIT License](https://github.com/gershep/Thesis/blob/master/LICENSE).
