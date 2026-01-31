@@ -25,7 +25,7 @@ To use this project, you need MATLAB or GNU Octave.
 
 ## Usage
 
-The function `ncut` takes two inputs: the similarity matrix `W`, and the number of partitions `k`. It outputs the eigenvalues `s` and the partition matrix`X*`.
+The function `ncut` takes two inputs: the similarity matrix `W` and the number of partitions `k`. It outputs the eigenvalues `s` and the partition matrix`X*`.
 
 ## Examples
 
