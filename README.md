@@ -37,7 +37,7 @@ We present two examples in `examplePoints.m` and `exampleGauss.m`. In the first 
 
 <img width="1443" height="732" alt="new_circle" src="https://github.com/user-attachments/assets/073ca9a2-b058-4c9a-867d-f0fc38b046f4" />
 
-In the second example, we have two overlapping datasets: data sampled from a uniform distribution forming a rectangular strip, and data sampled from a Gaussian distribution forming a disk.
+In the second example, we have two overlapping datasets: data sampled from a uniform distribution forming a rectangular strip and data sampled from a Gaussian distribution forming a disk.
 The points are not partitioned correctly ($\sigma = 0.04$).
 
 Since the overlap between the disk and the strip is larger than the width of the strip, a cut that separates them has a higher penalty than a cut somewhere along the thin strip.
